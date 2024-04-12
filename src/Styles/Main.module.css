@@ -1,0 +1,28 @@
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff; /* Default background color */
+}
+
+/* Define styles for different regions */
+.card.africa {
+  background-color: #ffc107; /* Yellow for Africa */
+}
+
+.card.americas {
+  background-color: #007bff; /* Blue for Americas */
+}
+
+.card.asia {
+  background-color: #28a745; /* Green for Asia */
+}
+
+.card.europe {
+  background-color: #6610f2; /* Purple for Europe */
+}
+
+.card.oceania {
+  background-color: #dc3545; /* Red for Oceania */
+}

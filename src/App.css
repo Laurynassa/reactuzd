@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+.main-menu {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.flags {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 10px;
+}
+
+.flags img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
