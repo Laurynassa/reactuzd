@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-const API_URL = "http://restcountries.com/v3.1/all";
+const API_URL = "https://restcountries.com/v3.1/all";
 
 const MainMenu = () => {
   const [countries, setCountries] = useState([]);
